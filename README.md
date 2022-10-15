@@ -1,2 +1,2 @@
 # GreenMail
-Ada hackathon project 2022
+Ada hackathon project 2022 - changes!
