@@ -1,7 +1,29 @@
 body {
   min-width: 300px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 img {
   width: 100%;
+}
+
+
+.button {
+  border: none;
+  border-radius: 12px;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #00DB7F;
+}
+
+.button:hover {
+  background-color: #1b867d; /* hover background color Teal */
+  color: white;
 }
