@@ -15,8 +15,8 @@
     background-color: white;
     padding: 20px; 
     border-style: solid;
-    border-color: black;
-    background-color: pink;
+    border-color: white;
+    background-color: white;
 }
 
 .main-inner {
@@ -41,7 +41,7 @@
 }
 
 .icon {
-    width: 100px; 
+    width: 75px; 
     padding: 20px; 
 }
 
@@ -63,6 +63,10 @@ hr {
     border-radius: 50%;
 }
 
+.earth {
+    width: 75px; 
+    padding: 0 25px; 
+}
 
 .button {
     border: none;
