@@ -1,5 +1,5 @@
 {
-	"name": "popup",
+	"name": "Congrats!!",
 	"manifest_version": 3,
 	"version": "0.1",
   "action": {
@@ -8,5 +8,3 @@
     },
     "default_popup": "gogreen.html"
   }
-
-}
