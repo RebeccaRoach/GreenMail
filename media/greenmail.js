@@ -17,13 +17,16 @@ function getEmissions(numEmails) {
   return convertToHumanImpact(grams)
 }
 
-function showAlert() {
-	// alert("Test of popup");
-  alert(getEmissions(5000));
+function showAlert(num) {
+  alert(getEmissions(num));
 }
 
 document.getElementById("alertButton").onclick = function(){
   // hard-code 5000 emails deleted for now
-  getEmissions(5000);
-  showAlert();
+  showAlert(480);
+};
+
+document.getElementById("alertButton2").onclick = function(){
+  // hard-code 5000 emails deleted for now
+  showAlert(98);
 };
