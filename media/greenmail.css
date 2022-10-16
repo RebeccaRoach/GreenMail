@@ -12,8 +12,11 @@
 .main {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(183, 228, 114);
+    background-color: white;
     padding: 20px; 
+    border-style: solid;
+    border-color: black;
+    background-color: pink;
 }
 
 .main-inner {
@@ -58,4 +61,25 @@
 hr {
     margin: 20px 0;
     border-radius: 50%;
+}
+
+
+.button {
+    border: none;
+    border-radius: 12px;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #00DB7F;
+}
+
+.button:hover {
+    background-color: #1b867d; /* hover background color Teal */
+    color: white;
 }
