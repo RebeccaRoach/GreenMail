@@ -1,0 +1,1 @@
+chrome.browserAction.setIcon({ path:"heart.png"});

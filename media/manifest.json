@@ -3,9 +3,7 @@
 	"manifest_version": 3,
 	"version": "0.1",
   "action": {
-    "default_icon" :{
-      "24": "images/leaf.jpeg"
-    },
-    "default_popup": "gogreen.html"
+    "default_popup": "gogreen.html",
+    "default_icon": "heart.png"
   }
 }
