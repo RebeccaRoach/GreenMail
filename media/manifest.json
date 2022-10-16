@@ -6,8 +6,9 @@
     "default_icon" :{
       "24": "images/leaf.jpeg"
     },
-    "default_popup": "popup.html"
+    "default_popup": "gogreen.html"
   }
 
-
 }
+
+// FINAL EDITS 
