@@ -2,40 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="greenmail.css">
+    
 </head>
 <body>
     <div id="wrapper">
         <div class="main">
             <div class="main-inner">
                 <div class="title">
-                    <p class="title">Go Green! <img class="earth" src="Earth.png" alt="earth"></p>
+                    <h1>Go Green</h1>
+                
                 </div>
-                <div class="icons-bar">
-                    <div class="mail">
-                        <img src="Mail.png" alt="mail_envelope" class="icon">
-                        <p class="bold"><span class="color">Mail</span></p>
-                    </div>
-                    <div class="settings">
-                        <img src="Gear.png" alt="settings_icon" class="icon">
-                        <p class="bold"><span class="color">Settings</span></p>
-                    </div>
-                    <div class="profile">
-                        <img src="Person.png" alt="profile_icon" class="icon">
-                        <p class="bold"><span class="color">Profile</span></p>
-                    </div>
+                <!-- Tab links -->
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><img src="Mail.png" alt="mail_envelope" class="icon"></button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')"> <img src="Gear.png" alt="settings_icon" class="icon"></button>
+                    <!-- <button class="tablinks" onclick="openCity(event, 'Tokyo')"><img src="Person.png" alt="profile_icon" class="icon"></button> -->
                 </div>
-                <hr>
-                <!-- <p class="content"><button>Button</button></p>
-                <p class="content"><button>Button</button></p> -->
-                <button type="button" id="alertButton" class="button">Deep Clean</button>
-                <button type="button" id="alertButton2" class="button">Maintenance</button>
-                <script src="popup.js"></script>
-                <hr>
-                <p class="description">Thanks for saving energy by deleting your emails <br> for more info visit <a href = "#"> our site! </a></p>
+                <!-- Tab content -->
+                <div id="London" class="tabcontent">
+                    <div>
+                        <h3>Mail</h3>
+                    </div>
+                    <!-- info-->
+                    <div>
+                        <p>Going Green!</p>
+                        <p>You have saved 1000g of cO2! Keep it up!</p>
+                    </div>
+                   
+                    <!--buttons-->
+                    <div>
+                        <button type="button" id="alertButton" class="btn options">Deep Clean</button>
+                        <button type="button" id="alertButton2" class="btn options">Maintenance</button>
+                    </div>
+                  
+                </div>
+                
+                <div id="Paris" class="tabcontent">
+                    <h3>Settings</h3>
+                    <p>Deep Clean:</p>
+                    <p>Maintenance:</p>
+                    <p>Unsubscribe:</p>
+                    <!--close button-->
+                    <span onclick="this.parentElement.style.display='none'">x</span>
+                </div>
+                
+                <!-- <div id="Tokyo" class="tabcontent">
+                    
+                </div> -->
+
+                
             </div>
         </div>
     </div>

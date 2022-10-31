@@ -27,13 +27,7 @@
     margin: 10px; 
 }
 
-.title {
-    padding: 20px, 30px; 
-    font-size: 40px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .icons-bar {
     display: flex;
@@ -41,7 +35,7 @@
 }
 
 .icon {
-    width: 75px; 
+    width: 50px; 
     padding: 20px; 
 }
 
@@ -63,27 +57,101 @@ hr {
     border-radius: 50%;
 }
 
-.earth {
-    width: 75px; 
-    padding: 0 25px; 
-}
-
-.button {
-    border: none;
-    border-radius: 12px;
-    color: #000000;
-    padding: 15px 32px;
+.title {
+    padding: 20px, 30px; 
+    font-size: 30px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
     font-family: 'Nunito Sans', sans-serif;
-    background-color: #00DB7F;
 }
 
-.button:hover {
-    background-color: #1b867d; /* hover background color Teal */
+.btn {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    cursor: pointer;
+  }
+  
+  /* Green */
+  .options {
+    border-color: #016440;
+    color: black;
+  }
+  
+  .options:hover {
+    background-color: #016440;
     color: white;
+  }
+  
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+    width: 250px;
+    height: 100px;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 20px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+
+
+  #header-icons .material-icons {
+    color: var(--popup-accent-color);
+}
+.material-icons {
+    font-family: "Material Icons";
+}
+.material-icons {
+    color: #999;
+    cursor: pointer;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "liga";
 }
